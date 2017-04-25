@@ -6,4 +6,4 @@
 
 Distributed as an archive with pre-built Windows executable
 
-License MIT
+License GNU GPLv3
