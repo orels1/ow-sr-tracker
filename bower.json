@@ -1,0 +1,25 @@
+{
+  "name": "overwatch-tracker",
+  "description": "A personal overwatch sr tracker",
+  "main": "devserver.js",
+  "authors": [
+    "orels1"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "reactjs",
+    "sass"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.6"
+  }
+}

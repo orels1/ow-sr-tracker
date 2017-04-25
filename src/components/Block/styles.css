@@ -1,0 +1,30 @@
+@value block-bg: #2B2F37;
+@value title-color: rgba(255,255,255,0.6);
+
+.block {
+  background: block-bg;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  border: 2px solid #212223;
+  box-shadow: 0 2px rgba(255,255,255,0.4);
+}
+
+.header {
+  padding: 10px 15px;
+  border-bottom: 1px solid rgba(255,255,255,0.2);
+  width: 100%;
+  box-sizing: border-box;
+  color: title-color;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.contents {
+  padding: 15px;
+  width: 100%;
+  box-sizing: border-box;
+}

@@ -1,0 +1,23 @@
+@value button-bg: #ffc70e;
+
+.button {
+  border: none;
+  outline: none;
+  padding: 0 30px;
+  margin: 10px;
+  line-height: 36px;
+  font-size: 14px;
+  color: #000;
+  cursor: pointer;
+  background: button-bg;
+  box-shadow: button-shadow;
+  text-transform: uppercase;
+  border-radius: 3px;
+  transform: skewX(-10deg);
+  opacity: 1;
+  transition: opacity 150ms ease;
+}
+
+.button:hover {
+  opacity: 0.9;
+}

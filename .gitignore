@@ -1,0 +1,9 @@
+node_modules
+bower_components
+*.log
+.idea
+.sass-cache
+sessions.json
+*.asar
+build/*
+.git
